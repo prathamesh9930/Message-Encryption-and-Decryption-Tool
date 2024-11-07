@@ -81,7 +81,7 @@ def main_screen():
     # Icon (replace 'logo.png' with your actual icon path if you have one)
     image_icon = PhotoImage(file="logo.png")
     screen.iconphoto(False, image_icon)
-    screen.title("PCT App")
+    screen.title("CryptoLock")
     
     def reset():
         code.set("")
